@@ -44,8 +44,9 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+  margin: 16px;
+  padding: 0px;
+  font-size: 40px;
 }
 
 /*
@@ -64,7 +65,8 @@ audio, canvas, iframe, img, svg, video {
  */
 
 textarea {
-  resize: vertical;
+  width: 80%;
+  height: 300px;
 }
 
 /* ==========================================================================
@@ -143,15 +145,77 @@ nav ul li a{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  margin: 5% 0%;
   flex-direction: row;
+  width: 100vw;
+}
+
+/* This sets up each image with associated link */
+#threepanel1{
+  background-image: url('../img/bladee1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#threepanel2{
+  background-image: url('../img/bladee2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#threepanel3{
+  background-image: url('../img/bladee3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#threepanel1 a,
+#threepanel2 a,
+#threepanel3 a{
+  font-size: 50px;
+  text-decoration: none;
+  color: #000;
 }
 
 /* this sets up the illustrations to be 20% in width to go across the page */
 .illustration_section img{
-  width: 33.3%;
+  width: 10%;
   height: auto;
-  margin: 0px;
+  margin: 5%;
+}
+
+/* sets up the Footer */
+
+footer{
+  height: 250px;
+  width: 100vw;
+  background-color: #D86867;
+  position: relative;
+}
+
+.bottom_footer{
+  height: 70px;
+  width: 100vw;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
 }
 
 
