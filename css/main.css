@@ -73,6 +73,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  margin: 0 auto;
+}
+
 /* This sets up the background image for your header section */
 header{
   background-image: url('../img/head.jpg');
@@ -201,20 +205,67 @@ nav ul li a{
   margin: 5%;
 }
 
-/* sets up the Footer */
+/* This is your contact form on your homepage....style the input, textarea and submit button */
+.form_section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+form{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input{
+  width: 500px;
+  height: 75px;
+  margin: 1%;
+}
+
+textarea{
+  width: 500px;
+  height: 75px;
+  margin: 1%;
+}
+
+input[type="submit"] {
+  width: 200px;
+}
+
+
+/* This is your footer....don't touch it */
 
 footer{
-  height: 250px;
+  width: 100vw;
+  background-color: #D86867;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.top_footer{
+  height: 95px;
   width: 100vw;
   background-color: #D86867;
   position: relative;
+  bottom: 0;
 }
 
 .bottom_footer{
-  height: 70px;
+  height: 75px;
   width: 100vw;
   background-color: #000;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 

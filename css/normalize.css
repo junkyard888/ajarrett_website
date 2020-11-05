@@ -20,9 +20,7 @@ html {
  * Remove the margin in all browsers.
  */
 
-body {
-  margin: 0;
-}
+
 
 /**
  * Render the `main` element consistently in IE.
@@ -38,7 +36,7 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 64px;
   margin: 0.67em 0;
 }
 
@@ -63,7 +61,7 @@ hr {
 
 pre {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 64px; /* 2 */
 }
 
 /* Text-level semantics
@@ -106,7 +104,7 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 64px; /* 2 */
 }
 
 /**
